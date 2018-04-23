@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XtraReportsLayoutSerializer SerializerVersion="16.2.0.0" Ref="0" ControlType="DevExpress.XtraReports.UI.XtraReport, DevExpress.XtraReports.v16.2, Version=16.2.0.0, Culture=neutral, PublicKeyToken=79868b8147b5eae4" Name="XtraReport1" PageWidth="850" PageHeight="1100" Version="16.2" Dpi="100">
+  <Extensions>
+    <Item1 Ref="1" Key="DataSerializationExtension" Value="DevExpress.XtraReports.Web.ReportDesigner.DefaultDataSerializer" />
+  </Extensions>
+  <Bands>
+    <Item1 Ref="2" ControlType="TopMarginBand" Name="TopMargin" HeightF="100" TextAlignment="TopLeft" Dpi="100" Padding="0,0,0,0,100" />
+    <Item2 Ref="3" ControlType="ReportHeaderBand" Name="ReportHeader" HeightF="100" Dpi="100">
+      <Controls>
+        <Item1 Ref="4" ControlType="XRLabel" Name="xrLabel7" Multiline="true" Text="This example shows how to provide custom controls for editing report content in Print Preview.&#xD;&#xA; &#xD;&#xA;The following custom editors are available in this report: a combo box editor, a date editor with a custom format and a standard text editor with a phone number mask." SizeF="616.4583,79.99998" LocationFloat="10.00001, 10.00001" Dpi="100" Font="Tahoma, 9.75pt" Padding="2,2,0,0,100">
+          <StylePriority Ref="5" UseFont="false" />
+        </Item1>
+      </Controls>
+    </Item2>
+    <Item3 Ref="6" ControlType="DetailBand" Name="Detail" HeightF="100" TextAlignment="TopLeft" Dpi="100" Padding="0,0,0,0,100">
+      <Controls>
+        <Item1 Ref="7" ControlType="XRLabel" Name="label2" Text="Select a required date:" SizeF="165,23" LocationFloat="242.5, 10.07" Dpi="100" Font="Tahoma, 10pt" Padding="5,5,5,5,100">
+          <StylePriority Ref="8" UseFont="false" UsePadding="false" />
+        </Item1>
+        <Item2 Ref="9" ControlType="XRLabel" Name="label1" SizeF="165,33" LocationFloat="242.5, 33.07" Dpi="100" Padding="5,5,5,5,100" Borders="All">
+          <EditOptions Ref="10" ObjectType="DevExpress.XtraReports.UI.TextEditOptions, DevExpress.XtraReports.v16.2" EditorName="DateEditor" Enabled="true" />
+          <StylePriority Ref="11" UsePadding="false" UseBorders="false" />
+        </Item2>
+        <Item3 Ref="12" ControlType="XRLabel" Name="xrLabel6" Text="Enter a phone number:" SizeF="165,23" LocationFloat="461.4583, 10.00001" Dpi="100" Font="Tahoma, 10pt" Padding="5,5,5,5,100">
+          <StylePriority Ref="13" UseFont="false" UsePadding="false" />
+        </Item3>
+        <Item4 Ref="14" ControlType="XRLabel" Name="xrLabel4" Text="Select a required item:" SizeF="165,23" LocationFloat="10.00001, 10.00001" Dpi="100" Font="Tahoma, 10pt" Padding="5,5,5,5,100">
+          <StylePriority Ref="15" UseFont="false" UsePadding="false" />
+        </Item4>
+        <Item5 Ref="16" ControlType="XRLabel" Name="xrLabel3" SizeF="165,33" LocationFloat="461.4583, 32.99999" Dpi="100" Padding="5,5,5,5,100" Borders="All">
+          <EditOptions Ref="17" ObjectType="DevExpress.XtraReports.UI.TextEditOptions, DevExpress.XtraReports.v16.2" EditorName="Phone" Enabled="true" />
+          <StylePriority Ref="18" UsePadding="false" UseBorders="false" />
+        </Item5>
+        <Item6 Ref="19" ControlType="XRLabel" Name="xrLabel1" SizeF="165,33" LocationFloat="10.00001, 32.99999" Dpi="100" Padding="5,5,5,5,100" Borders="All">
+          <EditOptions Ref="20" ObjectType="DevExpress.XtraReports.UI.TextEditOptions, DevExpress.XtraReports.v16.2" EditorName="ComboBoxEditor" Enabled="true" />
+          <StylePriority Ref="21" UsePadding="false" UseBorders="false" />
+        </Item6>
+      </Controls>
+    </Item3>
+    <Item4 Ref="22" ControlType="BottomMarginBand" Name="BottomMargin" HeightF="100" TextAlignment="TopLeft" Dpi="100" Padding="0,0,0,0,100" />
+  </Bands>
+</XtraReportsLayoutSerializer>
