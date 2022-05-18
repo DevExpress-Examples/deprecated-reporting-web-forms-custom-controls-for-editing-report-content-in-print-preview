@@ -1,6 +1,6 @@
-﻿<%@ Page Language="vb" AutoEventWireup="true" CodeBehind="Default.aspx.vb" Inherits="T460713.Default" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="T460713.Default" %>
 
-<%@ Register Assembly="DevExpress.XtraReports.v16.2.Web, Version=16.2.17.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Namespace="DevExpress.XtraReports.Web" TagPrefix="dx" %>
+<%@ Register Assembly="DevExpress.XtraReports.v20.2.Web.WebForms, Version=20.2.11.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Namespace="DevExpress.XtraReports.Web" TagPrefix="dx" %>
 
 <!DOCTYPE html>
 
@@ -56,12 +56,12 @@
             for (var i = 1; i < 21; i++) {
                 items.push("Item " + i);
             }
-            DevExpress.Report.EditingFieldExtensions.registerEditor("ComboBoxEditor", "ComboBox Editor", "Custom", { items: items }, "comobox-editor-template");
-            DevExpress.Report.EditingFieldExtensions.registerEditor("Phone", "Phone", "Custom", {
+            DevExpress.Reporting.Editing.EditingFieldExtensions.registerEditor("ComboBoxEditor", "ComboBox Editor", "Custom", { items: items }, "comobox-editor-template");
+            DevExpress.Reporting.Editing.EditingFieldExtensions.registerEditor("Phone", "Phone", "Custom", {
                 mask: "(999) 000-0000",
                 onValueChanged: formatValue
             });
-            DevExpress.Report.EditingFieldExtensions.registerEditor("DateEditor", "Date Editor", "Custom", {}, "date-editor-template");
+            DevExpress.Reporting.Editing.EditingFieldExtensions.registerEditor("DateEditor", "Date Editor", "Custom", {}, "date-editor-template");
         }
     </script>
 </head>
