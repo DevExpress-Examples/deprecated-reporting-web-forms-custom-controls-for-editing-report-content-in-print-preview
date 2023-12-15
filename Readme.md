@@ -3,17 +3,25 @@
 [![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/T460713)
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
-<!-- default file list -->
-*Files to look at*:
 
-* **[Default.aspx](./CS/T460713/Default.aspx) (VB: [Default.aspx](./VB/T460713/Default.aspx))**
+# Reporting for Web Forms - How to use custom controls for editing report content in Print Preview
+
+This example demonstrates how to create and register custom editors to be used for [editing the content of report controls in Print Preview](https://docs.devexpress.com/XtraReports/117343/detailed-guide-to-devexpress-reporting/provide-interactivity/edit-content-in-print-preview). In particular, it shows how to create a combo box editor, a date editor with a custom format, and a standard text editor with a phone number mask.
+
+The following image illustrates a custom combo box editor:
+
+![](media/3c184b23-c080-11e6-80bf-00155d62480c.png) 
+
+## Files to Review
+
+* [Default.aspx](./CS/T460713/Default.aspx) (VB: [Default.aspx](./VB/T460713/Default.aspx))
 * [Default.aspx.cs](./CS/T460713/Default.aspx.cs) (VB: [Default.aspx.vb](./VB/T460713/Default.aspx.vb))
-<!-- default file list end -->
-# How to use custom controls for editing report content in Print Preview
 
+## Documentation
 
-This example demonstrates how to create and register custom editors to be used for <a href="https://documentation.devexpress.com/#XtraReports/CustomDocument117343">editing the content of report controls in Print Preview</a>. In particular, it shows how to create a combo box editor, a date editor with a custom format and a standard text editor with a phone number mask.<br><br>The following image illustrates a custom combo box editor.<br><br><img src="https://raw.githubusercontent.com/DevExpress-Examples/how-to-use-custom-controls-for-editing-report-content-in-print-preview-t460713/16.2.3+/media/3c184b23-c080-11e6-80bf-00155d62480c.png"><br><br>
+* [Use Custom Controls](https://docs.devexpress.com/XtraReports/2607/detailed-guide-to-devexpress-reporting/use-report-controls/use-custom-controls)
 
-<br/>
+## More Examples
 
-
+- [Reporting for WinForms - Create a Custom Progress Bar Control](https://github.com/DevExpress-Examples/reporting-winforms-custom-progress-bar-control)
+- [Reporting for WinForms - How to use custom controls for editing report content in Print Preview](https://github.com/DevExpress-Examples/reporting-winforms-custom-controls-for-editing-report-content-in-print-preview)
